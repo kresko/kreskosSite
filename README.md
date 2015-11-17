@@ -1,2 +1,2 @@
 # kreskosSite
-This is site about me and about my little projects.
+This site is about me and my little projects.
