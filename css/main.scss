@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 1024px;
+	height: 400px;
+	background-image: url(../images/snow.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	h1 {
+		text-align: center;
+		a {
+			font-family: sans-serif;
+			font-size: 2em;
+			text-decoration: none;
+			color: #000;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+section {
+	width: 1024px;
+	height: 800px;
+	border-bottom: 1px solid #ccc;
+	h1 {
+		margin-top: 40px;
+		font-size: 2em;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: underline;
+	}
+	img {
+		float: right;
+		margin: 50px 120px 50px 0;
+	}
+	.paragraph-block {
+		float: left;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		font-weight: bold;
+		margin:50px 0 50px 100px;
+		padding: 20px 0;
+	}
+	.kod {
+		float: left;
+		margin: 60px 0 0 120px;
+	}
+	.black-block {
+		width: 400px;
+		height: 300px;
+		margin: 50px 100px 0 0;
+		float: right;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 1.5em;
+	}
+}
+
+article {
+	width: 1024px;
+	height: 800px;
+	h1 {
+		text-align: center;
+		font-family: sans-serif;
+		font-weight: bold;
+		font-size: 2em;
+		text-decoration: underline;
+		margin-top: 70px;
+	}
+	.block {
+		width: 550px;
+		height: 550px;
+		float: right;
+		margin: 50px 25px 50px 0;
+	}
+	.block-paragraph {
+		width: 400px;
+		height: 500px;
+		float: left;
+		font-family: sans-serif;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 45px 0 0 20px; 
+	}
+}
+
+footer {
+	width: 1024px;
+	height: 200px;
+	background-image: url(../images/snow.jpg); 
+	overflow: hidden;
+	p {
+		font-family: sans-serif;
+		font-size: 1.5em;
+		margin: 95px 50px;
+		a.paragraph {
+			text-decoration: none;
+			color: #000;
+		}
+	}
+}
